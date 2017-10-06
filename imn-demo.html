@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>img-demo</title>
+    <link rel="stylesheet" href="js/zoomer/css/anythingzoomer.css">
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
+    <script src="js/zoomer/js/jquery.anythingzoomer.js"></script>
+  </head>
+  <body>
+    <script>
+    $(function(){
+      $('#zoom').anythingZoomer({
+        clone:true;
+      });
+    });
+    </script>
+    <div id="zoom" >
+        <div class="small">
+          <img src="assets/bloodborne.jpg" alt="">
+      </div>
+      <div class="large">
+
+      </div>
+    </div>
+
+  </body>
+</html>
