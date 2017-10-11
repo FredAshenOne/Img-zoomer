@@ -1,0 +1,81 @@
+body{
+  margin:0px;
+  width: 100%;
+  height:100%;
+}
+
+.main-box{
+align-items: center;
+display: flex;
+height: 100vh;
+flex-flow: column;
+justify-content: center;
+position: static;
+width: 100vw;
+}
+
+.first-wraper{
+width: 50%;
+height: 50%;
+}
+
+
+.window-wraper{
+  background: white;
+  border: black 1px solid;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+}
+.large img{
+  position: absolute;
+}
+
+.second-wraper{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 50%;
+}
+.small-wraper{
+  height: 70%;
+  width: auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.small-img{
+  height:100%;
+  width: auto;
+  margin: 3px;
+  cursor:url(../assets/MagnifyingGlass.cur),auto;
+}
+
+/*
+.window-hide{
+  display:none
+}*/
+
+.init{
+  display: none;
+}
+
+#lg-img{
+  display: flex;
+}
+
+.large{
+  height: 100%;
+  width: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
